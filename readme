@@ -1,0 +1,4 @@
+In 1993, Andrew Odlyzko tested a Gilbreath's conjecture in a brute-force manner in a paper titled "Iterated Absolute Values of Difference of Consecutive Primes". The conjecture involved prime numbers, and was tested up to all prime numbers less than 10E+13. It was found to hold up.
+
+The time complexity of testing this conjecture grows super-linearly -- about n log n. Nonetheless, using modern hardware and an efficient implementation using CUDA, I have verified the conjecture up to prime numbers less than 10E+16, three more orders of magnitude, using a fraction of the computing time.
+
